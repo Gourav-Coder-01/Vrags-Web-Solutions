@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body{
+      background:skyblue;
+}
+
+@keyframes spinPause {
+  0%   { transform: rotate(0deg); }
+  33%  { transform: rotate(360deg); } /* spin in 1s */
+  100% { transform: rotate(360deg); } /* pause for 2s */
+}
+
+.animate-spinPause {
+  animation: spinPause 3s linear infinite;
+}
+
+
+
