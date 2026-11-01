@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16">
         
         {/* Left Side: Content */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left text-white space-y-6 z-10">
+        <div className="w-full lg:w-1/2 text-center lg:text-left text-white space-y-6 z-1">
           
           {/* Agency Badge */}
           <span className="inline-block px-3.5 py-1.5 bg-blue-500/20 text-blue-200 border border-blue-400/30 rounded-full text-xs sm:text-sm font-semibold tracking-wide uppercase shadow-sm">
