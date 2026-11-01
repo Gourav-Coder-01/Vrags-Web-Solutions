@@ -1,6 +1,8 @@
 import React from 'react';
 import forever from '../assets/forever.png';
 import netflix from '../assets/netflix.png';
+import Restaurant from '../assets/Restaurant.png';
+import Salon from '../assets/Salon.png';
 
 const Portfolio = () => {
   const projects = [
@@ -19,6 +21,22 @@ const Portfolio = () => {
       link: "https://clone-gourav.netlify.app/",
       tag: "Web App",
       badgeColor: "bg-rose-500/10 text-rose-400 border-rose-500/30",
+    },
+    {
+      title: "Restaurant",
+      description: "Discover a delightful dining experience with delicious food, fresh ingredients, and exceptional flavors. Enjoy a warm ambiance, friendly service, and unforgettable moments with every bite.",
+      image: Restaurant,
+      link: "https://restaurant-iota-taupe.vercel.app/",
+      tag: "Restaurant-booking",
+      badgeColor: "bg-yellow-500/10 text-gray-400 border-orange-500/30",
+    },
+    {
+      title: "Salon",
+      description: "Experience beauty, style, and self-care at its finest. From trendy haircuts to relaxing spa treatments, we offer premium salon services to help you look confident, feel refreshed, and shine every day.",
+      image: Salon,
+      link: "https://salon-gold-two.vercel.app/",
+      tag: "Salon-web",
+      badgeColor: "bg-green-500/10 text-yellow-400 border-rose-500/30",
     },
   ];
 
