@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
 
         {/* Right Side: Visual Image */}
-        <div className="w-full lg:w-1/2 flex justify-center items-center z-10">
+        <div className="w-full lg:w-1/2 flex justify-center items-center z-0">
           <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-xl">
             {/* Soft Glow Effect Behind Image */}
             <div className="absolute inset-0 bg-blue-400/20 rounded-full filter blur-3xl -z-10 transform scale-90"></div>
