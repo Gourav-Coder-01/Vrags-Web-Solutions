@@ -1,6 +1,5 @@
 import React from 'react';
 import forever from '../assets/forever.png';
-import netflix from '../assets/netflix.png';
 import Restaurant from '../assets/Restaurant.png';
 import Salon from '../assets/Salon.png';
 
@@ -13,14 +12,6 @@ const Portfolio = () => {
       link: "https://frontend-pearl-one-55.vercel.app/",
       tag: "E-Commerce",
       badgeColor: "bg-amber-500/10 text-amber-400 border-amber-500/30",
-    },
-    {
-      title: "Netflix Clone",
-      description: "A feature-rich streaming platform clone replicating the UI and interactive media layouts.",
-      image: netflix,
-      link: "https://onlinestreamingweb.netlify.app/",
-      tag: "Web App",
-      badgeColor: "bg-rose-500/10 text-rose-400 border-rose-500/30",
     },
     {
       title: "Restaurant",
