@@ -18,7 +18,7 @@ const Portfolio = () => {
       title: "Netflix Clone",
       description: "A feature-rich streaming platform clone replicating the UI and interactive media layouts.",
       image: netflix,
-      link: "https://clone-gourav.netlify.app/",
+      link: "https://onlinestreamingweb.netlify.app/",
       tag: "Web App",
       badgeColor: "bg-rose-500/10 text-rose-400 border-rose-500/30",
     },
